@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Amazon</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: black;
+        }
+        
+        .container {
+          padding: 16px;
+          background-color: white;
+          padding-left: 25%;
+          padding-right: 25%;
+          border: 2px black;
+          
+         }
+
+        img {
+                 
+            padding-left: 300px;
+             width: 150px;
+        }
+        
+       
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+      
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        
+        .registerbtn {
+          background-color:#f4c45b;
+          color:black;
+          font-size: 20px;
+          padding: 16px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+          opacity: 1;
+        }
+        
+        
+        a {
+          color: dodgerblue;
+        }
+        
+        
+        .signin {
+          background-color: #f1f1f1;
+          text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <form action>
+        <div class="container">
+            <img src="C:\Users\user\Desktop\Capture.PNG" style="width:150px">
+          <h1>Create Acount</h1>
+          
+          <hr>
+          <label for="Name"><b>Your Name</b></label>
+          <input type="text"  name="name" id="name" required>
+
+          <label for="Mobile"><b>Mobile number </b></label>
+          <input type="text"  name="number" id="mobile" required>
+      
+          <label for="email"><b>Email(Optional)</b></label>
+          <input type="text"  name="email" id="email">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password"  name="psw" id="psw" required>
+      
+          <hr>
+          <p>We will send you a text to verify your phone.</br>
+            Message and Data rates may apply.</p>
+      
+          <button type="submit" class="registerbtn">Continue</button>
+        </div>
+        
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+      
+</body>
+</html>
