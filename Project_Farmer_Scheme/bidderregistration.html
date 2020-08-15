@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidder registration</title>
+<style>
+    body{
+	margin:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+	margin-right:50px;
+	margin-left:200px;
+	
+	border-style:solid;
+	border-color:#0080109e;
+	height:800px;
+	width:1000px;
+}
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+input{
+    border: 2px solid green;		
+}
+
+button{
+	background-color:green;
+	color: white;
+	size:10px;
+	padding:10px;
+}
+
+.container{
+    margin-left: 350px;
+}
+.container h1{
+    margin-left: 30px;
+}
+.f1{
+    margin-top: 5px;
+    margin-left: 75px;
+}
+.f2{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.f3{
+    margin-top: 5px;
+    margin-left: 85px;
+}
+.doc1{
+    margin-left: 60px;
+}
+.a1{
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+.a2{
+    margin-top: 5px;
+    margin-left: 105px;
+}
+.a3{
+    margin-top: 5px;
+    margin-left: 110px;
+
+}
+.a4{
+    margin-top: 5px;
+    margin-left: 115px;
+}
+.l1{
+    margin-top: 5px;
+    margin-left: 105px;
+
+}
+.l2{
+    margin-top: 5px;
+    margin-left: 85px;
+
+}
+.l3{
+    margin-top: 5px;
+    margin-left: 105px;
+
+}
+.b1{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.b2{
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+.d1{
+    margin-top: 5px;
+    margin-left: 85px;
+
+
+}
+.d2{
+    margin-top: 5px;
+    margin-left: 105px;
+}
+
+.button1{	
+    margin-left: 400px;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="main">
+            <div class="card">
+                
+                <form id="f1">
+                    <div class="container">
+                        <h1>Personal Details</h1>
+                        <label  for="uname"><b>Full Name  </b></label>
+                        <input class="f1" type="text" placeholder="Enter Full Name " name="uname"><br>
+
+                        <label  for="contact"><b>Contact Number  </b></label>
+                        <input class="f2" type="text" placeholder="Enter Contact" name="contact"><br>
+
+                        <label for="email"><b>Email id  </b></label>
+                        <input class="f3"  type="text" placeholder="Enter Email" name="email"><br></br>
+
+                        <div class="d1">Address Details</div>
+                        <input class="a1" type="text" placeholder="Line 1"><br>
+                        <input class="a1" type="text" placeholder="Line 2"><br></br>
+
+                        <label for="state"><b>State </b></label> <input class="a2" type="text" name="state"><br>
+                        <label for="city"><b>City </b></label> <input class="a3"  type="text" name="city"><br>
+                        <label for="pin"><b>Pin </b></label> <input class="a4"  type="text" name="pin"><br></br>
+
+                        <div class="d1">Land Details</div>
+                        <label for="area"><b>Area </b></label> <input class="l1" type="text" name="area"><br>
+                        <label for="address"><b>Address </b></label> <input class="l2" type="text" name="address"><br>
+                        <label for="pin"><b>Area </b></label> <input class="l3" type="text" name="pin"><br></br>
+
+                        <div class="d1">Bank Details</div>
+                        <label for="account"><b>Account Number  </b></label> <input class="b1" type="text" name="account"><br>
+                        <label for="ifsc"><b>IFSC  </b></label> <input class="b2" type="text" name="ifsc"><br></br>
+
+                        <div class="doc">Document</div>
+                        <label for="aadhar"><b>Aadhar  </b></label> <input class="d1" type="text" name="aadhar"><br>
+                        <label for="pan"><b>PAN  </b></label> <input class="d2" type="text" name="pan"><br>
+                       
+                    </div>
+                        <br>
+                    <div>
+                        <button  class="button1" type="button" class="cancelbtn">Register</button>
+                        <button   type="button" class="cancelbtn">Reset</button><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
