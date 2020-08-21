@@ -1,0 +1,25 @@
+.topnav {
+    overflow: hidden;
+    background-color: #99ff25;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+  }
+  .topnav ul {
+    list-style-type: none;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 70px;
+    opacity: 0.9;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    opacity: 1;
+  }
